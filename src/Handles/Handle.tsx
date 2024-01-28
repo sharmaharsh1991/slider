@@ -58,7 +58,7 @@ const Handle = React.forwardRef((props: HandleProps, ref: React.Ref<HTMLDivEleme
     }
   };
 
-  // ============================ Keyboard ============================
+  // =========================== Keyboard ===========================
   const onKeyDown: React.KeyboardEventHandler<HTMLDivElement> = (e) => {
     if (!disabled && keyboard) {
       let offset: number | 'min' | 'max' = null;
